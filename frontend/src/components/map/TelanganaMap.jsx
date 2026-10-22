@@ -162,8 +162,21 @@ const isDatasetACrop = datasetACrops.includes(selectedCrop);
     );
   }
 
-  return (
-    <div className="telangana-map-container">
+  return ( <div className="telangana-map-container">
+
+  {/* MAP TITLE */}
+  <h2
+    style={{
+      color: "#67f5ff",
+      fontSize: "22px",
+      fontWeight: "700",
+      margin: "0 0 12px 0",
+      textAlign: "left",
+    }}
+  >
+    Telangana Map
+  </h2>
+
 
       {/* SELECTED DISTRICT LABEL */}
 
